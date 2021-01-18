@@ -20,11 +20,11 @@ function Sidebar({isopen, toggle}) {
                         Services
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Sign up
+                        Reachout
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+                    <SidebarRoute to='/contact'>Contact Us</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>
