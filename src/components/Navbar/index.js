@@ -67,13 +67,13 @@ const Navbar = ({ toggle }) => {
                                     smooth={true}
                                     duration={500} spy={true}
                                     exact='true' offset={-80}>
-                                    Sign up
+                                    Reach out
                                 </NavLinks>
                             </NavItem>
                         </NavMenu>
 
                         <NavBtn>
-                            <NavBtnLink to="/signin">sign in</NavBtnLink>
+                            {/* <NavBtnLink to="/signin">contact us</NavBtnLink> */}
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

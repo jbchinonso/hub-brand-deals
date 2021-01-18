@@ -11,20 +11,20 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Reduce Expenses</ServicesH2>
-                    <ServicesP>We help reduce your fees and increase your Revenue</ServicesP>
+                    <ServicesH2>Website Designs</ServicesH2>
+                    <ServicesP>We help you bring your thoughts into webpages</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2> Virtual Offices</ServicesH2>
-                    <ServicesP>You can access our platform online, anywhere in the world</ServicesP>
+                    <ServicesH2> Graphic Designs</ServicesH2>
+                    <ServicesP> We make your logo stand out and memorable to potential customers</ServicesP>
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3} />
-                    <ServicesH2>Premium Benefits</ServicesH2>
-                    <ServicesP>Unlock Our special card that returns 5% cash back.</ServicesP>
+                    <ServicesH2>General Business Branding</ServicesH2>
+                    <ServicesP>we help your business Project the best feelings to your customers</ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
             

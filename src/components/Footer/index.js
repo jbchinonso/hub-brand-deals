@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react
 import {animateScroll as scroll} from 'react-scroll'
 
 import {
-    FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems,
+    FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems,LogoU,
     FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink
 } from './FooterElements'
 
@@ -57,10 +57,10 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>
-                            dolla
+                            H<LogoU>U</LogoU>B
                         </SocialLogo>
                         <WebsiteRights>
-                            dolla @ {new Date().getFullYear()} all rights reserved.
+                            hub - brand deals @ {new Date().getFullYear()} all rights reserved.
                         </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">

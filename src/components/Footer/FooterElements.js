@@ -111,3 +111,8 @@ export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 24px;
 `;
+
+export const LogoU = styled.span`
+    color: red;
+    text-decoration:line-through;
+`
