@@ -42,6 +42,11 @@ export const Icon = styled(Link)`
     }
 `;
 
+export const LogoU = styled.span`
+ color: red;
+ text-decoration:line-through;
+`
+
 export const FormContent = styled.div`
     height: 1000px;
     display: flex;
@@ -90,6 +95,13 @@ export const FormInput = styled.input`
     border: none;
     border-radius: 4px;
 `;
+
+export const TextArea = styled.textarea`
+    padding: 16px 16px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 4px;
+`
 
 export const FormButton = styled.button`
     background: #01bf71;

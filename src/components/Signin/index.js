@@ -1,21 +1,23 @@
 import React from 'react'
-import { Container,FormWrap,Icon, FormContent, Form, FormH1, FormLabel, FormInput, FormButton, Text } from './SigninElements'
+import { Container,FormWrap,Icon, LogoU, FormContent, Form, FormH1, FormLabel, FormInput,TextArea, FormButton, Text } from './SigninElements'
 
 const Signin = () => {
     return (
         <>
             <Container>
                 <FormWrap>
-                    <Icon to="/"> dolla</Icon>
+                    <Icon to="/">H<LogoU>U</LogoU>B</Icon>
                     <FormContent>
-                        <Form action="#">
-                            <FormH1>Sign in to your Account</FormH1>
+                        <Form action="mailto:praisebars@gmail.com" method="post" enctype="text/plain">
+                            <FormH1>Please Send Us an Email</FormH1>
                             <FormLabel htmlFor="for">Email</FormLabel>
-                            <FormInput type="email" required />
-                            <FormLabel htmlFor="for"> Password </FormLabel>
-                            <FormInput type="password" required />
-                            <FormButton type="submit">Continue</FormButton>
-                            <Text>Forgot Password</Text>
+                            <FormInput type="email" name="Email" required />
+                            <FormLabel htmlFor="for"> Fullname </FormLabel>
+                            <FormInput type="text" name="Fullname" required />
+                            <FormLabel htmlFor="for"> Message </FormLabel>
+                            <TextArea name="Message" required />
+                            <FormButton type="submit" name="submit">Continue</FormButton>
+                            <Text>This form send's us a mail</Text>
                         </Form>
                     </FormContent>
                 </FormWrap>
