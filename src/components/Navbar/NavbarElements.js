@@ -33,12 +33,17 @@ export const NavLogo = styled(LinkR)`
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.5rem;
+font-size: 2rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
+`
+
+export const LogoU = styled.span`
+ color: red;
+ text-decoration:line-through;
 `
 
 export const MobileIcon = styled.div`
