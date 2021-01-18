@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container,FormWrap,Icon, LogoU, FormContent, Form, FormH1, FormLabel, FormInput,TextArea, FormButton, Text } from './SigninElements'
+import { Container,FormWrap,Icon, LogoU, FormContent, Form, FormH1, FormLabel, FormInput,TextArea, FormButton, Text } from './ContactElements'
 
-const Signin = () => {
+const Contact = () => {
     return (
         <>
             <Container>
@@ -27,4 +27,4 @@ const Signin = () => {
     )
 }
 
-export default Signin
+export default Contact

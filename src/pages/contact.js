@@ -1,12 +1,12 @@
 import React from 'react'
 import ScrollToTop from '../components/scrollToTop'
-import Signin from '../components/Signin'
+import Contact from '../components/Contact'
 
 const SinginPage = () => {
     return (
         <>
             <ScrollToTop />
-            <Signin />
+            <Contact />
 
         </>
     )
